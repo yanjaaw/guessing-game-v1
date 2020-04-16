@@ -1,0 +1,170 @@
+/*************************** HEADER AND GUESSES ***************************/
+
+.header {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.guessholder {
+    transition: 0.3s ease-in;
+    display: none;
+    src: none;
+    margin-left: 20px;
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    background-color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 64px;
+    text-align: center;
+    /* vertical-align: middle; */
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+}
+
+/******************************* MAIN BODY *******************************/
+
+h1 {
+    /* color: black;
+    font-family: cursive;
+    background-color: aliceblue;
+    border: solid;
+    position: absolute;
+    width: 717px;
+    height: 56px;
+    left: 60px;
+    top: -109px; */
+    /* vertical-align: super; */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 80px;
+    display: inline-block;
+    
+    color: #402271;
+
+}
+
+h2 {
+    /* position: absolute;
+width: 689px;
+height: 28px;
+left: 91px;
+top: 129px; */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #402271;
+
+    /* opacity: 0; */
+}
+body {
+    transition: background-color 0.3s ease-out;
+    background-color: white;
+    background-image: none;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+div {
+    box-align: center;
+}
+.center {
+    text-align: center;
+}
+
+
+/*************************** BUTTONS AND INPUT ***************************/
+
+.input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    font-family: 'Raleway';
+    font-size: 32px;
+    background: none;
+    outline: none;
+  }
+
+.submitButton {
+    background-color: #691AE9;
+    border: 1px solid #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: url(assets/arvo/Arvo-Regular.ttf);
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: white;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    opacity: 0.5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    width: 40.7%;
+  }
+  .resetButton {
+    background-color; white;
+    border: 1px solid #F50000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #F50000;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 20%;
+  }
+  .hintButton {
+    background-color; white;
+    border: 1px solid #402271;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #402271;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 20%;
+  }
+
+/*************************** FOOTER ***************************/
+footer {
+    color: rgba(0,0,0,1);
+    margin-top: 16px;
+    background-color: rgba(255,255,255,0.7);
+    border-top: 2px solid rgba(0,0,0,0.7);
+    border-bottom: 2px solid rgba(0,0,0,0.7);
+    margin-bottom: 15px;
+}
+footer img {
+    max-height: 70px;
+    position: middle;
+}

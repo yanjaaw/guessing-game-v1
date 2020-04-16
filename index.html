@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html lang='en'>
+
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Guessing Game</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <div class="header"><h1>THE GUESSING GAME
+        <div class="guessholder" id="guessholder1"></div>
+        <div class="guessholder" id="guessholder2"></div>
+        <div class="guessholder" id="guessholder3"></div>
+        <div class="guessholder" id="guessholder4"></div>
+        <div class="guessholder" id="guessholder5"></div>
+      </h1>
+        <!-- <ul id="guess-list"></ul>
+          <li class='guess'></li>
+          <li class='guess'></li>
+          <li class='guess'></li>
+          <li class='guess'></li>
+          <li class='guess'></li>
+      </ul> -->
+    </div>
+        <div>
+            <h2 id="guess-hints">Guess a number between 1 and 100. (You get 5 chances.)</h2>
+            <form onsubmit="return false;">
+                <input type="text" class="input" maxlength="3" id="input" autofocus="autofocus" autocomplete=off> 
+                <br>
+                <br>
+                <button type ="button" class="submitButton" id="submit-button">Guess!</button>
+            </form>
+                <form>
+                    <button type="button" class ="resetButton" id="reset">Reset game</button> 
+                    <button type="button" class ="hintButton" id="hint">Get a hint</button>
+                </form>
+                <img style="margin-top: 18px; width: 40.7%;" id="gif" src="">
+        </div>
+  
+        <script src='js/guessing-game.js'></script>
+    </body>
+
+</html>
+
+<footer>
+      <a href="http://wintersoul.org"><img class="center" style="border-radius: 50%; align-items: center;" src="assets/yanjaa-square.jpg" alt="Yanjaa made this"></a>
+      <a href="https://gracehopper.com"><img class="center" src="assets/grace-hopper-logo.svg" alt="Grace Hopper Logo"></a>
+</footer>
